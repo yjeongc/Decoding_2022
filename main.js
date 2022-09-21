@@ -20,13 +20,13 @@ function addTodo(e){
 function addTask(value){
     let ul = document.querySelector('ul');
     let li = document.createElement('li');
-    li.innerHTML = '<button class="del"></button> <label id="val">${value}</label>';
-    ul.appendChild{li};//리스트 내용 추가
+    li.innerHTML = '<button class="del"></button><label id="val">to do</label>';
+    ul.appendChild(li);//리스트 내용 추가
 }
 
 function delTodo(e){
     let remove = e.target.parentNone;
-    let parenNode = remove.parenNode;
+    let parenNode = remove.parentNode;
     if(e.target.className == 'del')
         parentNode.removeChild(remove);
 }
