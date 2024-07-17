@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>ID 선택자</title>
+<script src = "http://code.jquery.com/jquery-2.2.1.mon/js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	alert($("#unique2").html());
+});
+</script>
+</head>
+<body>
+<div class="class2">안녕하세요.</div>
+<div id="unique2">제이쿼리 입니다.</div>
+<div class="unique3">제이쿼리는 아주 쉽습니다.</div>
+</body>
+</html>
+<!--  
+//파일을 못 찾아서 여기에 씀.
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Class 선택자 없음</title>
+<script src = "http://code.jquery.com/jquery-2.2.1.mon/js"></script>
+<script type="text/javascript">
+function addImage(){
+	$(".class1").html("img src*'../image.school.jfif>");
+}
+</script>
+</head>
+<body>
+<div class="class1">
+</div>
+<div id="class1">
+</div>
+<input type ="button" value="이미지 추가하기" onClick="addImage()"  />
+</body>
+</html>
+-->
+
